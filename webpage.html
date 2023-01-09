@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Devops</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.svg" />
+    <meta
+      name="keywords"
+      content="devops, webdesign, programming, scripting
+      language"
+    />
+    <meta tag="description" content="Article about website design" />
+    <script>
+      function handleCreatePost() {
+        console.log("clicked on create post button");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="logo-search container">
+        <img
+          id="logo"
+          src="https://static.thenounproject.com/png/965228-200.png"
+        />
+
+        <input type="text" placeholder="Search" />
+      </div>
+      <button onclick="handleCreatePost () ">Create post</button>
+    </div>
+    <div id="post-form-container">
+      <form>
+        <label><b>Title</b></label>
+        <input type="text" placeholder="enter Title" />
+
+        <label><b>Description</b></label>
+        <input type="text" placeholder="enter description" />
+
+        <label> <b>Post</b></label>
+        <input type="text" placeholder="Your post" />
+      </form>
+    </div>
+
+    <div id="Main-section-container">
+      <div id="article-section">
+        <div>
+          <h1>Article Title</h1>
+          <h3>Short information on Article</h3>
+          <p class="Article-info"><i>Written by: Elshine Phoenix</i></p>
+          <p class="Article-info"><i>Date:27/12/2022</i></p>
+        </div>
+
+        <div>
+          <img
+            id="article-cover"
+            src="https://theme.zdassets.com/theme_assets/268930/0c5638867d8eec4815c5780e218e4c2e45cd4ee6.png"
+          />
+          <p>Paragraph one</p>
+          <p>Paragraph Two</p>
+
+          <h4>Section Header</h4>
+          <p>Paragraph</p>
+
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="side-section">
+        <div>
+          <h2>Side Section</h2>
+          <h3>Another Article</h3>
+          <h4>Title Another Article Short info</h4>
+          <a
+            href="https://udacity.zendesk.com/hc/en-us?flash=true&return_to=%2Fhc%2Frequests"
+            >Click to see the Article</a
+          >
+        </div>
+
+        <div>
+          <h2>Also Side Section</h2>
+          <h3>Another Article</h3>
+          <h4>Short info</h4>
+          <a
+            href="https://app.dataquest.io/c/115/m/609/python-for-loops?path=16&slug=data-cleaning-python-skill"
+            >Click to see the Article</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-section">
+      <p>this is the footer</p>
+    </div>
+  </body>
+</html>

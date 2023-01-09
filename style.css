@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(105, 156, 201);
+  margin: 0;
+}
+
+a {
+  color: blue;
+  fontsize: 10px;
+}
+
+#logo {
+  width: 20px;
+}
+
+#article-cover {
+  width: 100%;
+}
+
+.Article-info {
+  color: grey;
+}
+
+#Main-section-container {
+  display: flex;
+  width: 80%;
+  margin: 15px auto;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#logo-search-container {
+  display: flex;
+}
+
+#header input {
+  width: 250px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+#article-section {
+  width: 70%;
+  background-color: white;
+  margin-right: 15px;
+}
+
+#article-section div {
+  padding: 15px;
+}
+
+#side-section {
+  width: 30%;
+}
+
+#side-section div {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15;
+}
+
+#footer-section {
+  background-color: white;
+  height: 50px;
+}
+
+button {
+  font-size: 10px;
+  padding: 10px 12-x;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+#post-form-container input {
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+
+#post-form-container input {
+  width: 100%;
+  margin: 5px 0 20px;
+
+}
